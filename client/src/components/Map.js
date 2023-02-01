@@ -247,7 +247,7 @@ class Map extends Component{
 		let map;
 		if( this.props.center.lat !== undefined ) {
 			map = <div>
-				<div>
+				<div className='form-readonly'>
 					<div className="form-group">
 						<label htmlFor="">City</label>
 						<input type="text" name="city" className="form-control" onChange={ this.onChange } readOnly="readOnly" value={ this.state.city }/>
